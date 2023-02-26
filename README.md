@@ -2,7 +2,7 @@
 
  Detailed guide about CSS (all basics for CSS).
 
- Part 2 contains : The box model of CSS and CSS positioning.
+ Part 2 contains : The box model of CSS and CSS positioning (Flexbox).
 
  The code examples in the guide can be found in the listed folders.
 
