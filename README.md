@@ -75,7 +75,7 @@ The box model includes
 ### width and height
 The actual content area with the space for text and images can be specified with the CSS properties width and height. If no value is specified, the HTML element is as wide and high as the surrounding element.
 
- example --> *4_Box_Model/Part_1/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_1/index.html) --> *4_Box_Model/Part_1/index.html*
    ```
     <h1>width and height</h1>
     <article class="article_01">
@@ -98,7 +98,8 @@ The actual content area with the space for text and images can be specified with
     </article>
    ```
 
- example --> *4_Box_Model/Part_1/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_1/styles/style.css) --> *4_Box_Model/Part_1/styles/style.css*
    ```
     .article_01 { 
         width: 300px; background: #e7fad7; 
@@ -118,7 +119,7 @@ The actual content area with the space for text and images can be specified with
 
 Note that the height specification is only an initial value. If the content of the encompassing element is greater than the specified height, the content will still be displayed and will overflow the box.
 
- example --> *4_Box_Model/Part_2/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_2/index.html) --> *4_Box_Model/Part_2/index.html*
    ```
     <h1>height</h1>
     <article class="article_01">
@@ -130,7 +131,8 @@ Note that the height specification is only an initial value. If the content of t
     </article>
    ```
 
- example --> *4_Box_Model/Part_2/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_2/styles/style.css) --> *4_Box_Model/Part_2/styles/style.css*
    ```
     .article_01 {
         width: 230px;
@@ -177,7 +179,7 @@ The shorthand notation with padding works the same as with margin.
 ### border
 The border wraps around the inner space (padding) and has its own CSS properties for thickness, line style, and color. Again, as with margin and padding, all four sides can be adjusted separately.
 
- example --> *4_Box_Model/Part_3/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_3/index.html) --> *4_Box_Model/Part_3/index.html*
    ```
     <h1>border</h1>
     <article class="article01">
@@ -200,7 +202,8 @@ The border wraps around the inner space (padding) and has its own CSS properties
     </article>
    ```
 
- example --> *4_Box_Model/Part_3/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_3/styles/style.css) --> *4_Box_Model/Part_3/styles/style.css*
    ```
     .article01 {
         width: 600px;
@@ -226,7 +229,7 @@ The border wraps around the inner space (padding) and has its own CSS properties
 ### margin
 The outer spacing of the box model is called margin. The outer margin has no color, is completely transparent and therefore takes on the background color of the surrounding element. Negative values are also allowed for margin. How these affect margin depends on whether the elements are static, positioned or floated.
 
- example --> *4_Box_Model/Part_4/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_4/index.html) --> *4_Box_Model/Part_4/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -250,7 +253,8 @@ The outer spacing of the box model is called margin. The outer margin has no col
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_4/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_4/styles/style.css) --> *4_Box_Model/Part_4/styles/style.css*
    ```
     .article01 {
         width: 600px;
@@ -277,7 +281,7 @@ For the vertical margins of two boxes placed one above the other, the values are
 
  ![Preview](4_Box_Model/images/CollapsingMargins.png)
 
- example --> *4_Box_Model/Part_5/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_5/index.html) --> *4_Box_Model/Part_5/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -301,7 +305,8 @@ For the vertical margins of two boxes placed one above the other, the values are
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_5/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_5/styles/style.css) --> *4_Box_Model/Part_5/styles/style.css*
    ```
     .headfoot {
         width: 600px;
@@ -337,7 +342,7 @@ The collapsing is intentional and serves to keep the spacing even for texts that
 ### Calculating the total width and height of a box
 It is possible to calculate the total width or total height of a box.
 
- example --> *4_Box_Model/Part_6/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_6/index.html) --> *4_Box_Model/Part_6/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -361,7 +366,8 @@ It is possible to calculate the total width or total height of a box.
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_6/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_6/styles/style.css) --> *4_Box_Model/Part_6/styles/style.css*
    ```
     .headfoot {
         width: 600px;
@@ -401,7 +407,7 @@ Thus the difference of the total width is exactly 22 pixels. Here you have to de
 
 Example:
 
- example --> *4_Box_Model/Part_7/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_7/index.html) --> *4_Box_Model/Part_7/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -425,7 +431,8 @@ Example:
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_7/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_7/styles/style.css) --> *4_Box_Model/Part_7/styles/style.css*
    ```
     .headfoot {
         width: 600px;
@@ -470,7 +477,7 @@ Values that can be used for `box-sizing`:
 
 Classic box model:
 
- example --> *4_Box_Model/Part_8/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_8/index.html) --> *4_Box_Model/Part_8/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -494,7 +501,8 @@ Classic box model:
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_8/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_8/styles/style.css) --> *4_Box_Model/Part_8/styles/style.css*
    ```
     .headfoot {
         width: 70%;
@@ -517,7 +525,7 @@ Classic box model:
 
 alternative Box model:
 
- example --> *4_Box_Model/Part_9/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_9/index.html) --> *4_Box_Model/Part_9/index.html*
    ```
     <header class="headfoot">Header</header>
       <article class="article01">
@@ -531,7 +539,8 @@ alternative Box model:
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_9/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_9/styles/style.css) --> *4_Box_Model/Part_9/styles/style.css*
    ```
     * {
         box-sizing: border-box;        
@@ -634,7 +643,7 @@ Different border styles
 | initial  | Sets this property to its default value. |
 | inherit  | Inherits this property from its parent element. |
 
- example --> *4_Box_Model/Part_10/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_10/index.html) --> *4_Box_Model/Part_10/index.html*
    ```
     <body>
         <h1>Different types of border</h1>
@@ -649,7 +658,8 @@ Different border styles
     </body>
    ```
 
- example --> *4_Box_Model/Part_10/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_10/styles/style.css) --> *4_Box_Model/Part_10/styles/style.css*
    ```
     * { 
         box-sizing: border-box;
@@ -684,7 +694,7 @@ Different border styles
 ### Create a decorative border with `border-image`
 With border-image a graphic can be used as a border. A pixel graphic or an SVG graphic is used for this purpose.
 
- example --> *4_Box_Model/Part_11/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_11/index.html) --> *4_Box_Model/Part_11/index.html*
    ```
     <body>
         <h1>Decorative border for boxes</h1>
@@ -699,7 +709,8 @@ With border-image a graphic can be used as a border. A pixel graphic or an SVG g
     </body>
    ```
 
- example --> *4_Box_Model/Part_11/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_11/styles/style.css) --> *4_Box_Model/Part_11/styles/style.css*
    ```
     .border {
         width: 500px;
@@ -717,7 +728,7 @@ With border-image a graphic can be used as a border. A pixel graphic or an SVG g
 ### Set background color with `background-color`
 The background color is specified with `background-color`. Only with `background` it is also possible but this is only a summary of CSS properties, so the shorthand.
 
- example --> *4_Box_Model/Part_12/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_12/index.html) --> *4_Box_Model/Part_12/index.html*
    ```
     <h1>Background color of boxes</h1>
     <p class="border">
@@ -730,7 +741,8 @@ The background color is specified with `background-color`. Only with `background
     </p>
    ```
 
- example --> *4_Box_Model/Part_12/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_12/styles/style.css) --> *4_Box_Model/Part_12/styles/style.css*
    ```
     .border {
         background-color: lightgreen;
@@ -755,7 +767,7 @@ Images, logos or graphics should still be added with the HTML element `<img>`. B
 
 A background graphic can be added with the shorthand `background` or with `background-image`.
 
- example --> *4_Box_Model/Part_13/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_13/index.html) --> *4_Box_Model/Part_13/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -774,7 +786,8 @@ A background graphic can be added with the shorthand `background` or with `backg
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_13/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_13/styles/style.css) --> *4_Box_Model/Part_13/styles/style.css*
    ```
     .headfoot {
         width: 85%;
@@ -823,7 +836,7 @@ This example shows a background image without background-repeat, to the bottom i
 
 Tiling of the background image can be restricted to the vertical direction by `background-repeat`, it would also work without but only if the graphic has the appropriate dimensions. For tiling in vertical direction the CSS property `background-repeat` must be assigned the value `repeat-y`.
 
- example --> *4_Box_Model/Part_14/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_14/index.html) --> *4_Box_Model/Part_14/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -843,7 +856,8 @@ Tiling of the background image can be restricted to the vertical direction by `b
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_14/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_14/styles/style.css) --> *4_Box_Model/Part_14/styles/style.css*
    ```
     .headfoot {
         width: 85%;
@@ -876,7 +890,7 @@ In total, there are three ways to tile a background graphic with the CSS backgro
 ### Position and fix background graphic
 The `background-position` CSS property is used to position the background graphic in the HTML element. `top`, `right`, `bottom`, `left` or `center` can be used as positions.
 
- example --> *4_Box_Model/Part_15/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_15/index.html) --> *4_Box_Model/Part_15/index.html*
    ```
     <header class="headfoot">Header</header>
       <article class="article01">
@@ -896,7 +910,8 @@ The `background-position` CSS property is used to position the background graphi
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_15/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_15/styles/style.css) --> *4_Box_Model/Part_15/styles/style.css*
    ```
     .article01 {
         width: 85%;
@@ -915,7 +930,7 @@ The `background-position` CSS property is used to position the background graphi
 
 The CSS property `background-attachment` is used to fix a background graphic on the display area. When scrolling, the graphic remains inside the HTML element, this property is rarely used. The default value is `scroll`, which scrolls the background graphic along with the element as usual.
 
- example --> *4_Box_Model/Part_16/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_16/index.html) --> *4_Box_Model/Part_16/index.html*
    ```
     <header class="headfoot">Header</header>
       <article class="article01">
@@ -935,7 +950,8 @@ The CSS property `background-attachment` is used to fix a background graphic on 
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_16/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_16/styles/style.css) --> *4_Box_Model/Part_16/styles/style.css*
    ```
     .article01 {
         width: 85%;
@@ -953,7 +969,7 @@ The CSS property `background-attachment` is used to fix a background graphic on 
 ### Stack multiple background graphics
 Stacking multiple background images can be implemented in CSS as follows:
 
- example --> *4_Box_Model/Part_17/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_17/index.html) --> *4_Box_Model/Part_17/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -965,7 +981,8 @@ Stacking multiple background images can be implemented in CSS as follows:
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_17/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_17/styles/style.css) --> *4_Box_Model/Part_17/styles/style.css*
    ```
     .article01 {
         width: 750px;
@@ -985,7 +1002,7 @@ Stacking multiple background images can be implemented in CSS as follows:
 ### Set the size of the background image
 The CSS property `background-size` can be used to specify the size of the background graphic. The specification can be made in pixels or percent. A specification in percent is relative to the height and width of the parent element in which the background image is to be displayed.
 
- example --> *4_Box_Model/Part_18/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_18/index.html) --> *4_Box_Model/Part_18/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -1000,7 +1017,8 @@ The CSS property `background-size` can be used to specify the size of the backgr
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_18/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_18/styles/style.css) --> *4_Box_Model/Part_18/styles/style.css*
    ```
     .headfoot {
         width: 750px;
@@ -1031,7 +1049,7 @@ Viewing the box model in the third dimension --> [3D CSS Box Model](https://hick
 ### Make the boxes transparent
 There are three ways to create transparent boxes. Either with *opacity* or RGBA or HSLA colors, as already described in the previous section. The difference between *opacity* and the RGBA or HSLA colors is that with opacity the transparency applies to all elements within the box.
 
- example --> *4_Box_Model/Part_19/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_19/index.html) --> *4_Box_Model/Part_19/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -1046,7 +1064,8 @@ There are three ways to create transparent boxes. Either with *opacity* or RGBA 
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_19/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_19/styles/style.css) --> *4_Box_Model/Part_19/styles/style.css*
    ```
     .article_01 {
         width: 90%;
@@ -1094,7 +1113,7 @@ It is also possible to repeat a gradient:
 
 Diagonal directions can be displayed with `to right bottom` (top left to bottom right) and `to left top` (bottom right to top left).
 
- example --> *4_Box_Model/Part_20/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_20/index.html) --> *4_Box_Model/Part_20/index.html*
    ```
     <header class="headfoot">Linear color gradients (start)</header>
     <article class="trans01 my_article">
@@ -1135,7 +1154,8 @@ Diagonal directions can be displayed with `to right bottom` (top left to bottom 
     <footer class="headfoot">Linear color gradients (end)</footer>
    ```
 
- example --> *4_Box_Model/Part_20/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_20/styles/style.css) --> *4_Box_Model/Part_20/styles/style.css*
    ```
     .trans01 { 
         background: linear-gradient(white, orange); 
@@ -1168,7 +1188,7 @@ Diagonal directions can be displayed with `to right bottom` (top left to bottom 
 
 In addition to the linear color gradients, there are also the radial color gradients, these are displayed with `radial-gradient()`.
 
- example --> *4_Box_Model/Part_21/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_21/index.html) --> *4_Box_Model/Part_21/index.html*
    ```
     <header class="headfoot">Radial color gradients (start)</header>
       <article class="trans01 my_article">
@@ -1186,7 +1206,8 @@ In addition to the linear color gradients, there are also the radial color gradi
     <footer class="headfoot">Radial color gradients (end)</footer>
    ```
 
- example --> *4_Box_Model/Part_21/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_21/styles/style.css) --> *4_Box_Model/Part_21/styles/style.css*
    ```
     .trans01 { 
         background: radial-gradient(white, orange); 
@@ -1210,7 +1231,7 @@ In addition to the linear color gradients, there are also the radial color gradi
 
 Multiple colors can also be used for the gradient:
 
- example --> *4_Box_Model/Part_22/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_22/index.html) --> *4_Box_Model/Part_22/index.html*
    ```
     <header class="headfoot">Multicolor color gradients (start)</header>
       <article class="trans01 my_article">
@@ -1222,7 +1243,8 @@ Multiple colors can also be used for the gradient:
     <footer class="headfoot">Multicolor color gradients (end)</footer>
    ```
 
- example --> *4_Box_Model/Part_22/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_22/styles/style.css) --> *4_Box_Model/Part_22/styles/style.css*
    ```
     .trans01 { 
         background: linear-gradient(to left, purple, blue, green, yellow, red, purple);  
@@ -1260,7 +1282,8 @@ It is also possible to represent an inner shadow with `inset`.
     box-shadow: inset -4px -4px 4px 4px gray;
    ```
 
- example --> *4_Box_Model/Part_23/index.html*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_23/index.html) --> *4_Box_Model/Part_23/index.html*
    ```
     <h1>Add shadows</h1>
     <pre class="shadow01 my_pre">box-shadow: 4px 4px gray;</pre>
@@ -1270,7 +1293,8 @@ It is also possible to represent an inner shadow with `inset`.
     <img class="my_img" src="images/picture.jpg" alt="Whale in clouds">
    ```
 
- example --> *4_Box_Model/Part_23/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_23/styles/style.css) --> *4_Box_Model/Part_23/styles/style.css*
    ```
     .shadow01 {  
         box-shadow:4px 4px gray;
@@ -1319,7 +1343,7 @@ It is also possible to enter multiple values:
 - Here the upper left corner and the lower right corner get a radius of 20 pixels and the upper right corner and the lower left corner get a radius of 10 pixels.
 
 
- example --> *4_Box_Model/Part_24/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_24/index.html) --> *4_Box_Model/Part_24/index.html*
    ```
     <header class="head">Header</header>
     <article class="article01">
@@ -1331,7 +1355,8 @@ It is also possible to enter multiple values:
     <footer class="foot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_24/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_24/styles/style.css) --> *4_Box_Model/Part_24/styles/style.css*
    ```
     .head {
         width: 85%;
@@ -1369,14 +1394,15 @@ It is also possible to enter multiple values:
 
 Round corners can also be used for images.
 
- example --> *4_Box_Model/Part_25/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_25/index.html) --> *4_Box_Model/Part_25/index.html*
    ```
     <h1>Round corners</h1>
     <img class="img_radius" src="images/picture.jpg" alt="Whale in clouds" />
     <img class="img_ellipse" src="images/picture.jpg" alt="The same picture again" />
    ```
 
- example --> *4_Box_Model/Part_25/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_25/styles/style.css) --> *4_Box_Model/Part_25/styles/style.css*
    ```
     .img_radius {
         border-radius: 25px;
@@ -1394,7 +1420,7 @@ Round corners can also be used for images.
 
 There is also the possibility to specify different values for the horizontal and vertical raduis. To do this, both values are separated with a `/`. The result is corners with elliptical corners with roundings.
 
- example --> *4_Box_Model/Part_26/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_26/index.html) --> *4_Box_Model/Part_26/index.html*
    ```
     <header class="head">
         border-radius: 10px 20px 30px 40px / 5px 10px 5px 10px;
@@ -1408,7 +1434,8 @@ There is also the possibility to specify different values for the horizontal and
     <footer class="foot">border-radius: 5px 10px / 20px;</footer>
    ```
 
- example --> *4_Box_Model/Part_26/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_26/styles/style.css) --> *4_Box_Model/Part_26/styles/style.css*
    ```
     .head {
         width: 85%;
@@ -1454,7 +1481,7 @@ most common vendor prefixes
 | -moz-        | Mozilla Firefox      |
 | -o-          | Opera                |
 
- example --> *4_Box_Model/Part_27/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_27/index.html) --> *4_Box_Model/Part_27/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -1478,7 +1505,8 @@ most common vendor prefixes
     <footer class="headfoot">Footer</footer>
    ```
 
- example --> *4_Box_Model/Part_27/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_27/styles/style.css) --> *4_Box_Model/Part_27/styles/style.css*
    ```
     h1 {
         -webkit-text-emphasis: filled double-circle green;
@@ -1506,7 +1534,7 @@ How and where an element is positioned and what is to happen to the elements fol
 ### `position: static;` 
 This is the default setting for all elements, and it is used when the CSS property `position` has not been noted at all. So the elements are displayed side by side as usual.
 
- example --> *5_CSS_Positioning/Part_1/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_1/index.html) --> *5_CSS_Positioning/Part_1/index.html*
    ```
     <header class="foothead">Header</header>
     <article class="article01">
@@ -1530,7 +1558,8 @@ This is the default setting for all elements, and it is used when the CSS proper
     <footer class="foothead">Footer</footer>
    ```
 
- example --> *5_CSS_Positioning/Part_1/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_1/styles/style.css) --> *5_CSS_Positioning/Part_1/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1555,7 +1584,7 @@ This is the default setting for all elements, and it is used when the CSS proper
 ### `position: relative;`
 This places an element relative to the current position with the CSS property `top`, `bottom`, `left` and `right` and the corresponding value specifications. The other elements are not affected.
 
- example --> *5_CSS_Positioning/Part_2/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_2/index.html) --> *5_CSS_Positioning/Part_2/index.html*
    ```
     <header class="foothead">Header</header>
       <article class="article01">
@@ -1572,7 +1601,8 @@ This places an element relative to the current position with the CSS property `t
    <footer class="foothead">Footer</footer>
    ```
 
- example --> *5_CSS_Positioning/Part_2/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_2/styles/style.css) --> *5_CSS_Positioning/Part_2/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1599,7 +1629,7 @@ This places an element relative to the current position with the CSS property `t
 ### `position: absolute;`  
 This drags the element out of the document flow. With the CSS properties `top`, `bottom`, `left` and `right` the element can be placed absolutely in the nearest parent element. Regardless of where the element was noted in the HTML document. All other elements will now act as if the absolutely moved element no longer belongs to the document flow and any gap thus created will be filled with the following element.
 
- example --> *5_CSS_Positioning/Part_3/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_3/index.html) --> *5_CSS_Positioning/Part_3/index.html*
    ```
     <header class="foothead">Header</header>
       <article class="article01">
@@ -1614,7 +1644,8 @@ This drags the element out of the document flow. With the CSS properties `top`, 
     <footer class="foothead">Footer</footer>
    ```
 
- example --> *5_CSS_Positioning/Part_3/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_3/styles/style.css) --> *5_CSS_Positioning/Part_3/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1641,7 +1672,7 @@ Note: If the width of a block is not specified and the positioning `position: ab
 
 In practice, absolute and relative positioning are often combined.
 
- example --> *5_CSS_Positioning/Part_4/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_4/index.html) --> *5_CSS_Positioning/Part_4/index.html*
    ```
     <body>
         <figure>
@@ -1651,7 +1682,8 @@ In practice, absolute and relative positioning are often combined.
     </body>
    ```
 
- example --> *5_CSS_Positioning/Part_4/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_4/styles/style.css) --> *5_CSS_Positioning/Part_4/styles/style.css*
    ```
     figure {
         position: relative;
@@ -1681,7 +1713,7 @@ In practice, absolute and relative positioning are often combined.
 ### `position: fixed;`
 The fixed positioning behaves at first like the absolute positioning, however with the clear difference that this fixed position is measured absolutely to the left upper edge of the web browser window. This means that a fixed element does not move when the web browser window is scrolled.
 
- example --> *5_CSS_Positioning/Part_5/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_5/index.html) --> *5_CSS_Positioning/Part_5/index.html*
    ```
     <header class="foothead">Header</header>
     <article class="article01">
@@ -1699,7 +1731,8 @@ The fixed positioning behaves at first like the absolute positioning, however wi
     <footer class="foothead">Footer</footer>
    ```
 
- example --> *5_CSS_Positioning/Part_5/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_5/styles/style.css) --> *5_CSS_Positioning/Part_5/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1725,7 +1758,7 @@ The fixed positioning behaves at first like the absolute positioning, however wi
 
 In practice, a fixed positioning is suitable e.g. for navigation areas, a fixed header or footer or a fixed link to the top of the page, which is always present at the same position.
 
- example --> *5_CSS_Positioning/Part_6/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_6/index.html) --> *5_CSS_Positioning/Part_6/index.html*
    ```
     <h1 id="start">Top of the page</h1>
     <a href="#start" class="up">Up</a>
@@ -1737,7 +1770,8 @@ In practice, a fixed positioning is suitable e.g. for navigation areas, a fixed 
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean ... </p>
    ```
 
- example --> *5_CSS_Positioning/Part_6/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_6/styles/style.css) --> *5_CSS_Positioning/Part_6/styles/style.css*
    ```
     .up {
         position: fixed;
@@ -1755,7 +1789,7 @@ In practice, a fixed positioning is suitable e.g. for navigation areas, a fixed 
 ### `position: sticky;`
 This function is a hybrid of relative and fixed positioning. This element initially behaves as with relative positioning until a certain boundary such as the top or bottom of the screen has been reached, where the element then sticks, and behaves as with fixed positioning.
 
- example --> *5_CSS_Positioning/Part_7/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_7/index.html) --> *5_CSS_Positioning/Part_7/index.html*
    ```
     <header class="foothead">Header</header>
     <article class="article01">
@@ -1781,7 +1815,8 @@ This function is a hybrid of relative and fixed positioning. This element initia
     <footer class="foothead">Footer</footer>
    ```
 
- example --> *5_CSS_Positioning/Part_7/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_7/styles/style.css) --> *5_CSS_Positioning/Part_7/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1823,7 +1858,7 @@ The use of the CSS property `z-index` is simple. The higher the noted value of `
 
 Negative values can also be used for the `z-index`. Of course, it still applies here that elements with positive values are arranged above the elements with negative values.
 
- example --> *5_CSS_Positioning/Part_8/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_8/index.html) --> *5_CSS_Positioning/Part_8/index.html*
    ```
     <header class="foothead">Header</header>
       <article class="article01">
@@ -1838,7 +1873,8 @@ Negative values can also be used for the `z-index`. Of course, it still applies 
     <footer class="foothead">Footer</footer>
    ```
 
- example --> *5_CSS_Positioning/Part_8/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_8/styles/style.css) --> *5_CSS_Positioning/Part_8/styles/style.css*
    ```
     .article01 {
         position: relative;
@@ -1866,7 +1902,7 @@ Negative values can also be used for the `z-index`. Of course, it still applies 
 ## 5.3. Floating boxes with `float`
 With `float` an element is taken out of the usual document flow and placed at the right or left margin. The following elements without `float` flow around this floated element. In practice, people tend to use flexboxes or the grid layout for the layout of websites today. 
 
- example --> *5_CSS_Positioning/Part_9/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_9/index.html) --> *5_CSS_Positioning/Part_9/index.html*
    ```
     <h1>A report</h1>
     <figure>
@@ -1879,7 +1915,8 @@ With `float` an element is taken out of the usual document flow and placed at th
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean ... </p>
    ```
 
- example --> *5_CSS_Positioning/Part_9/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_9/styles/style.css) --> *5_CSS_Positioning/Part_9/styles/style.css*
    ```
     figure {
         float: left;
@@ -1899,7 +1936,7 @@ Only the text around the image flows, but not the `padding`, `border`, `margin` 
 ### Stop flowing around
 The flowing around can be stopped with the CSS property `clear`. The CSS property `clear` can be passed the values `left`, `right`, `both` or `none`. A `clear:left;` ends a `float:left;` and `both` ends left and right. `none` is the default value, and the elements can thus flow again. 
 
- example --> *5_CSS_Positioning/Part_10/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_10/index.html) --> *5_CSS_Positioning/Part_10/index.html*
    ```
     <h1>A report</h1>
     <figure>
@@ -1912,7 +1949,8 @@ The flowing around can be stopped with the CSS property `clear`. The CSS propert
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean ... </p>
    ```
 
- example --> *5_CSS_Positioning/Part_10/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_10/styles/style.css) --> *5_CSS_Positioning/Part_10/styles/style.css*
    ```
     figure {
         float: left;
@@ -1925,7 +1963,7 @@ The flowing around can be stopped with the CSS property `clear`. The CSS propert
 ### Combine floats into a unit
 With `display: flow-root` a new block for the bypassing element is created via CSS. This element is only available to newer web browsers. For this the trick with `overflow: hidden;` would offer itself, with which as a side effect likewise the content is enclosed into a new block. An elegant solution for this is CSS's feature query @supports(). This can be used to check whether a browser can handle certain CSS property-value combinations.
 
- example --> *5_CSS_Positioning/Part_11/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_11/index.html) --> *5_CSS_Positioning/Part_11/index.html*
    ```
     <h1>A report</h1>
     <figure>
@@ -1938,7 +1976,8 @@ With `display: flow-root` a new block for the bypassing element is created via C
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean ... </p>
    ```
 
- example --> *5_CSS_Positioning/Part_11/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_11/styles/style.css) --> *5_CSS_Positioning/Part_11/styles/style.css*
    ```
     .float-left {
         float: left;
@@ -1977,7 +2016,7 @@ The principle of flexboxes is simple. A parent element is needed in which the CS
 ### Align the flexbox
 How the elements are aligned within the flexbox is specified with the CSS property `flex-direction`. For horizontal alignment the value `row` can be used and for vertical alignment the value `column` is used. If `flex-direction` is not used, `row` is the default. The default orientation for the elements of a flexbox is horizontal.
 
- example --> *5_CSS_Positioning/Part_12/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_12/index.html) --> *5_CSS_Positioning/Part_12/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -1995,7 +2034,8 @@ How the elements are aligned within the flexbox is specified with the CSS proper
     </main>
    ```
 
- example --> *5_CSS_Positioning/Part_12/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_12/styles/style.css) --> *5_CSS_Positioning/Part_12/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2018,7 +2058,7 @@ How the elements are aligned within the flexbox is specified with the CSS proper
 
 If the value `column` is used instead of `row`, the individual elements within the `main` element are vertically aligned.
 
- example --> *5_CSS_Positioning/Part_13/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_13/index.html) --> *5_CSS_Positioning/Part_13/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2036,7 +2076,8 @@ If the value `column` is used instead of `row`, the individual elements within t
     </main>
    ```
 
- example --> *5_CSS_Positioning/Part_13/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_13/styles/style.css) --> *5_CSS_Positioning/Part_13/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2068,7 +2109,7 @@ The unpleasant thing about `flex-direction: row;` is that it doesn't look nice a
 
 If you want the elements to wrap to the next row, the flexbox model provides the CSS property `flex-wrap`. The default value `nowrap` prevents the elements in the flexbox from wrapping. If the `wrap` value is used, the elements wrap into a new row. There is also the value `wrap-reverse`, which wraps the flexible elements to the top.
 
- example --> *5_CSS_Positioning/Part_14/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_14/index.html) --> *5_CSS_Positioning/Part_14/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2086,7 +2127,8 @@ If you want the elements to wrap to the next row, the flexbox model provides the
     </main>
    ```
 
- example --> *5_CSS_Positioning/Part_14/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_14/styles/style.css) --> *5_CSS_Positioning/Part_14/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2123,7 +2165,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
 - `center` : This will place the elements in the center.
 
- example --> *5_CSS_Positioning/Part_15/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/index.html) --> *5_CSS_Positioning/Part_15/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2141,7 +2183,8 @@ The CSS property `justify-content` can be used to arrange the individual element
     </main>
    ```
 
- example --> *5_CSS_Positioning/Part_15/styles/style1.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style1.css) --> *5_CSS_Positioning/Part_15/styles/style1.css*
    ```
     .myarticle {
         width: 300px;
@@ -2164,7 +2207,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
 - `flex-start` : This will align the elements left.
 
- example --> *5_CSS_Positioning/Part_15/styles/style2.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style2.css) --> *5_CSS_Positioning/Part_15/styles/style2.css*
    ```
     .myarticle {
         width: 300px;
@@ -2187,7 +2230,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
 - `flex-end` : This will align the elements right.
 
- example --> *5_CSS_Positioning/Part_15/styles/style3.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style3.css) --> *5_CSS_Positioning/Part_15/styles/style3.css*
    ```
     .myarticle {
         width: 300px;
@@ -2210,7 +2253,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
  - `space-between` : This distributes the elements evenly. The first and the last element touches at the beginning or at the end.
  
- example --> *5_CSS_Positioning/Part_15/styles/style4.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style4.css) --> *5_CSS_Positioning/Part_15/styles/style4.css*
    ```
     .myarticle {
         width: 300px;
@@ -2233,7 +2276,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
   - `space-around` : This distributes all elements evenly.
  
- example --> *5_CSS_Positioning/Part_15/styles/style5.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style5.css) --> *5_CSS_Positioning/Part_15/styles/style5.css*
    ```
     .myarticle {
         width: 300px;
@@ -2259,7 +2302,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `center`
 
- example --> *5_CSS_Positioning/Part_16/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/index.html) --> *5_CSS_Positioning/Part_16/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2277,7 +2320,8 @@ If the elements are to be arranged along the cross axis, the CSS property `align
     </main>
    ```
 
- example --> *5_CSS_Positioning/Part_16/styles/style1.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style1.css) --> *5_CSS_Positioning/Part_16/styles/style1.css*
    ```
     .myarticle {
         width: 500px;
@@ -2302,7 +2346,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `flex-start`
 
- example --> *5_CSS_Positioning/Part_16/styles/style2.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style2.css) --> *5_CSS_Positioning/Part_16/styles/style2.css*
    ```
     .myarticle {
         width: 500px;
@@ -2327,7 +2371,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `flex-end`
 
- example --> *5_CSS_Positioning/Part_16/styles/style3.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style3.css) --> *5_CSS_Positioning/Part_16/styles/style3.css*
    ```
     .myarticle {
         width: 500px;
@@ -2352,7 +2396,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `space-between`
 
- example --> *5_CSS_Positioning/Part_16/styles/style4.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style4.css) --> *5_CSS_Positioning/Part_16/styles/style4.css*
    ```
     .myarticle {
         width: 500px;
@@ -2377,7 +2421,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `space-around`
 
- example --> *5_CSS_Positioning/Part_16/styles/style5.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style5.css) --> *5_CSS_Positioning/Part_16/styles/style5.css*
    ```
     .myarticle {
         width: 500px;
@@ -2405,7 +2449,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 
 - `stretch`
 
- example --> *5_CSS_Positioning/Part_17/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/index.html) --> *5_CSS_Positioning/Part_17/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2423,7 +2467,8 @@ If individual elements in the arrangement of flexible elements are to be assigne
     </main>
    ```
 
- example --> *5_CSS_Positioning/Part_17/styles/style1.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/styles/style1.css) --> *5_CSS_Positioning/Part_17/styles/style1.css*
    ```
     .myarticle {
         width: 200px;
@@ -2453,7 +2498,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 
 - `center`
 
- example --> *5_CSS_Positioning/Part_17/styles/style2.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/styles/style2.css) --> *5_CSS_Positioning/Part_17/styles/style2.css*
    ```
     .myarticle {
         width: 200px;
@@ -2483,7 +2528,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 
 - `flex-start`
 
- example --> *5_CSS_Positioning/Part_17/styles/style3.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/styles/style3.css) --> *5_CSS_Positioning/Part_17/styles/style3.css*
    ```
     .myarticle {
         width: 200px;
@@ -2513,7 +2558,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 
 - `flex-end`
 
- example --> *5_CSS_Positioning/Part_17/styles/style4.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/styles/style4.css) --> *5_CSS_Positioning/Part_17/styles/style4.css*
    ```
     .myarticle {
         width: 200px;
@@ -2543,7 +2588,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 
 - `baseline`
 
- example --> *5_CSS_Positioning/Part_17/styles/style5.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/styles/style5.css) --> *5_CSS_Positioning/Part_17/styles/style5.css*
    ```
     .myarticle {
         width: 200px;
@@ -2587,7 +2632,7 @@ This means:
     flex-base: 30%;
    ```
 
- example --> *5_CSS_Positioning/Part_18/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_18/index.html) --> *5_CSS_Positioning/Part_18/index.html*
    ```
     <main class="mymain">
         <article class="myarticle article01">
@@ -2605,7 +2650,8 @@ This means:
     </main>
    ```
 
- example --> *5_CSS_Positioning/Part_18/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_18/styles/style.css) --> *5_CSS_Positioning/Part_18/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2642,7 +2688,7 @@ This means:
 
 #### The peculiarity of flex-grow at line break
 
- example --> *5_CSS_Positioning/Part_19/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_19/index.html) --> *5_CSS_Positioning/Part_19/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2660,7 +2706,8 @@ This means:
     </main>
    ```
 
- example --> *5_CSS_Positioning/Part_19/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_19/styles/style.css) --> *5_CSS_Positioning/Part_19/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2692,7 +2739,7 @@ When the viewport is reduced, the elements are automatically arranged differentl
 ### Determine the order of the boxes
 With the CSS property `order` the order itself can be set, also here a numerical value is used.
 
- example --> *5_CSS_Positioning/Part_20/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_20/index.html) --> *5_CSS_Positioning/Part_20/index.html*
    ```
     <main class="mymain">
       <article class="myarticle article01">
@@ -2710,7 +2757,8 @@ With the CSS property `order` the order itself can be set, also here a numerical
     </main>
    ```
 
- example --> *5_CSS_Positioning/Part_20/styles/style.css*
+
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_20/styles/style.css) --> *5_CSS_Positioning/Part_20/styles/style.css*
    ```
     .myarticle {
         width: 300px;
