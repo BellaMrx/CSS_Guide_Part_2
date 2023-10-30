@@ -63,7 +63,7 @@ In CSS, the box model serves as the basis for positioning elements and creating 
 
 
 ## 4.1. The classic box model
-The box model includes
+The box model includes:
 - the actual **content** of text and images, which is specified with **width** and **height**
 - **padding**, which creates space between the content and the border of an element
 - the **border**
@@ -75,7 +75,7 @@ The box model includes
 ### width and height
 The actual content area with the space for text and images can be specified with the CSS properties width and height. If no value is specified, the HTML element is as wide and high as the surrounding element.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_1/index.html) --> *4_Box_Model/Part_1/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_1) --> *4_Box_Model/Part_1/index.html*
    ```
     <h1>width and height</h1>
     <article class="article_01">
@@ -99,7 +99,7 @@ The actual content area with the space for text and images can be specified with
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_1/styles/style.css) --> *4_Box_Model/Part_1/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_1) --> *4_Box_Model/Part_1/styles/style.css*
    ```
     .article_01 { 
         width: 300px; background: #e7fad7; 
@@ -119,7 +119,7 @@ The actual content area with the space for text and images can be specified with
 
 Note that the height specification is only an initial value. If the content of the encompassing element is greater than the specified height, the content will still be displayed and will overflow the box.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_2/index.html) --> *4_Box_Model/Part_2/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_2) --> *4_Box_Model/Part_2/index.html*
    ```
     <h1>height</h1>
     <article class="article_01">
@@ -132,7 +132,7 @@ Note that the height specification is only an initial value. If the content of t
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_2/styles/style.css) --> *4_Box_Model/Part_2/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_2) --> *4_Box_Model/Part_2/styles/style.css*
    ```
     .article_01 {
         width: 230px;
@@ -179,7 +179,7 @@ The shorthand notation with padding works the same as with margin.
 ### border
 The border wraps around the inner space (padding) and has its own CSS properties for thickness, line style, and color. Again, as with margin and padding, all four sides can be adjusted separately.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_3/index.html) --> *4_Box_Model/Part_3/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_3) --> *4_Box_Model/Part_3/index.html*
    ```
     <h1>border</h1>
     <article class="article01">
@@ -203,7 +203,7 @@ The border wraps around the inner space (padding) and has its own CSS properties
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_3/styles/style.css) --> *4_Box_Model/Part_3/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_3) --> *4_Box_Model/Part_3/styles/style.css*
    ```
     .article01 {
         width: 600px;
@@ -229,7 +229,7 @@ The border wraps around the inner space (padding) and has its own CSS properties
 ### margin
 The outer spacing of the box model is called margin. The outer margin has no color, is completely transparent and therefore takes on the background color of the surrounding element. Negative values are also allowed for margin. How these affect margin depends on whether the elements are static, positioned or floated.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_4/index.html) --> *4_Box_Model/Part_4/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_4) --> *4_Box_Model/Part_4/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -254,7 +254,7 @@ The outer spacing of the box model is called margin. The outer margin has no col
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_4/styles/style.css) --> *4_Box_Model/Part_4/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_4) --> *4_Box_Model/Part_4/styles/style.css*
    ```
     .article01 {
         width: 600px;
@@ -281,7 +281,7 @@ For the vertical margins of two boxes placed one above the other, the values are
 
  ![Preview](4_Box_Model/images/CollapsingMargins.png)
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_5/index.html) --> *4_Box_Model/Part_5/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_5) --> *4_Box_Model/Part_5/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -306,7 +306,7 @@ For the vertical margins of two boxes placed one above the other, the values are
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_5/styles/style.css) --> *4_Box_Model/Part_5/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_5) --> *4_Box_Model/Part_5/styles/style.css*
    ```
     .headfoot {
         width: 600px;
@@ -342,7 +342,7 @@ The collapsing is intentional and serves to keep the spacing even for texts that
 ### Calculating the total width and height of a box
 It is possible to calculate the total width or total height of a box.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_6/index.html) --> *4_Box_Model/Part_6/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_6) --> *4_Box_Model/Part_6/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -367,7 +367,7 @@ It is possible to calculate the total width or total height of a box.
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_6/styles/style.css) --> *4_Box_Model/Part_6/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_6) --> *4_Box_Model/Part_6/styles/style.css*
    ```
     .headfoot {
         width: 600px;
@@ -407,7 +407,7 @@ Thus the difference of the total width is exactly 22 pixels. Here you have to de
 
 Example:
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_7/index.html) --> *4_Box_Model/Part_7/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_7) --> *4_Box_Model/Part_7/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -432,7 +432,7 @@ Example:
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_7/styles/style.css) --> *4_Box_Model/Part_7/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_7) --> *4_Box_Model/Part_7/styles/style.css*
    ```
     .headfoot {
         width: 600px;
@@ -477,7 +477,7 @@ Values that can be used for `box-sizing`:
 
 Classic box model:
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_8/index.html) --> *4_Box_Model/Part_8/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_8) --> *4_Box_Model/Part_8/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -502,7 +502,7 @@ Classic box model:
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_8/styles/style.css) --> *4_Box_Model/Part_8/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_8) --> *4_Box_Model/Part_8/styles/style.css*
    ```
     .headfoot {
         width: 70%;
@@ -525,7 +525,7 @@ Classic box model:
 
 alternative Box model:
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_9/index.html) --> *4_Box_Model/Part_9/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_9) --> *4_Box_Model/Part_9/index.html*
    ```
     <header class="headfoot">Header</header>
       <article class="article01">
@@ -540,7 +540,7 @@ alternative Box model:
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_9/styles/style.css) --> *4_Box_Model/Part_9/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_9) --> *4_Box_Model/Part_9/styles/style.css*
    ```
     * {
         box-sizing: border-box;        
@@ -643,7 +643,7 @@ Different border styles
 | initial  | Sets this property to its default value. |
 | inherit  | Inherits this property from its parent element. |
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_10/index.html) --> *4_Box_Model/Part_10/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_10) --> *4_Box_Model/Part_10/index.html*
    ```
     <body>
         <h1>Different types of border</h1>
@@ -659,7 +659,7 @@ Different border styles
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_10/styles/style.css) --> *4_Box_Model/Part_10/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_10) --> *4_Box_Model/Part_10/styles/style.css*
    ```
     * { 
         box-sizing: border-box;
@@ -694,7 +694,7 @@ Different border styles
 ### Create a decorative border with `border-image`
 With border-image a graphic can be used as a border. A pixel graphic or an SVG graphic is used for this purpose.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_11/index.html) --> *4_Box_Model/Part_11/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_11) --> *4_Box_Model/Part_11/index.html*
    ```
     <body>
         <h1>Decorative border for boxes</h1>
@@ -710,7 +710,7 @@ With border-image a graphic can be used as a border. A pixel graphic or an SVG g
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_11/styles/style.css) --> *4_Box_Model/Part_11/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_11) --> *4_Box_Model/Part_11/styles/style.css*
    ```
     .border {
         width: 500px;
@@ -728,7 +728,7 @@ With border-image a graphic can be used as a border. A pixel graphic or an SVG g
 ### Set background color with `background-color`
 The background color is specified with `background-color`. Only with `background` it is also possible but this is only a summary of CSS properties, so the shorthand.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_12/index.html) --> *4_Box_Model/Part_12/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_12) --> *4_Box_Model/Part_12/index.html*
    ```
     <h1>Background color of boxes</h1>
     <p class="border">
@@ -742,7 +742,7 @@ The background color is specified with `background-color`. Only with `background
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_12/styles/style.css) --> *4_Box_Model/Part_12/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_12) --> *4_Box_Model/Part_12/styles/style.css*
    ```
     .border {
         background-color: lightgreen;
@@ -767,7 +767,7 @@ Images, logos or graphics should still be added with the HTML element `<img>`. B
 
 A background graphic can be added with the shorthand `background` or with `background-image`.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_13/index.html) --> *4_Box_Model/Part_13/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_13) --> *4_Box_Model/Part_13/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -787,7 +787,7 @@ A background graphic can be added with the shorthand `background` or with `backg
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_13/styles/style.css) --> *4_Box_Model/Part_13/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_13) --> *4_Box_Model/Part_13/styles/style.css*
    ```
     .headfoot {
         width: 85%;
@@ -836,7 +836,7 @@ This example shows a background image without background-repeat, to the bottom i
 
 Tiling of the background image can be restricted to the vertical direction by `background-repeat`, it would also work without but only if the graphic has the appropriate dimensions. For tiling in vertical direction the CSS property `background-repeat` must be assigned the value `repeat-y`.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_14/index.html) --> *4_Box_Model/Part_14/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_14) --> *4_Box_Model/Part_14/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -857,7 +857,7 @@ Tiling of the background image can be restricted to the vertical direction by `b
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_14/styles/style.css) --> *4_Box_Model/Part_14/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_14) --> *4_Box_Model/Part_14/styles/style.css*
    ```
     .headfoot {
         width: 85%;
@@ -890,7 +890,7 @@ In total, there are three ways to tile a background graphic with the CSS backgro
 ### Position and fix background graphic
 The `background-position` CSS property is used to position the background graphic in the HTML element. `top`, `right`, `bottom`, `left` or `center` can be used as positions.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_15/index.html) --> *4_Box_Model/Part_15/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_15) --> *4_Box_Model/Part_15/index.html*
    ```
     <header class="headfoot">Header</header>
       <article class="article01">
@@ -911,7 +911,7 @@ The `background-position` CSS property is used to position the background graphi
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_15/styles/style.css) --> *4_Box_Model/Part_15/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_15) --> *4_Box_Model/Part_15/styles/style.css*
    ```
     .article01 {
         width: 85%;
@@ -930,7 +930,7 @@ The `background-position` CSS property is used to position the background graphi
 
 The CSS property `background-attachment` is used to fix a background graphic on the display area. When scrolling, the graphic remains inside the HTML element, this property is rarely used. The default value is `scroll`, which scrolls the background graphic along with the element as usual.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_16/index.html) --> *4_Box_Model/Part_16/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_16) --> *4_Box_Model/Part_16/index.html*
    ```
     <header class="headfoot">Header</header>
       <article class="article01">
@@ -951,7 +951,7 @@ The CSS property `background-attachment` is used to fix a background graphic on 
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_16/styles/style.css) --> *4_Box_Model/Part_16/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_16) --> *4_Box_Model/Part_16/styles/style.css*
    ```
     .article01 {
         width: 85%;
@@ -969,7 +969,7 @@ The CSS property `background-attachment` is used to fix a background graphic on 
 ### Stack multiple background graphics
 Stacking multiple background images can be implemented in CSS as follows:
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_17/index.html) --> *4_Box_Model/Part_17/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_17) --> *4_Box_Model/Part_17/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -982,7 +982,7 @@ Stacking multiple background images can be implemented in CSS as follows:
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_17/styles/style.css) --> *4_Box_Model/Part_17/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_17) --> *4_Box_Model/Part_17/styles/style.css*
    ```
     .article01 {
         width: 750px;
@@ -1002,7 +1002,7 @@ Stacking multiple background images can be implemented in CSS as follows:
 ### Set the size of the background image
 The CSS property `background-size` can be used to specify the size of the background graphic. The specification can be made in pixels or percent. A specification in percent is relative to the height and width of the parent element in which the background image is to be displayed.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_18/index.html) --> *4_Box_Model/Part_18/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_18) --> *4_Box_Model/Part_18/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -1018,7 +1018,7 @@ The CSS property `background-size` can be used to specify the size of the backgr
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_18/styles/style.css) --> *4_Box_Model/Part_18/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_18) --> *4_Box_Model/Part_18/styles/style.css*
    ```
     .headfoot {
         width: 750px;
@@ -1049,7 +1049,7 @@ Viewing the box model in the third dimension --> [3D CSS Box Model](https://hick
 ### Make the boxes transparent
 There are three ways to create transparent boxes. Either with *opacity* or RGBA or HSLA colors, as already described in the previous section. The difference between *opacity* and the RGBA or HSLA colors is that with opacity the transparency applies to all elements within the box.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_19/index.html) --> *4_Box_Model/Part_19/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_19) --> *4_Box_Model/Part_19/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -1065,7 +1065,7 @@ There are three ways to create transparent boxes. Either with *opacity* or RGBA 
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_19/styles/style.css) --> *4_Box_Model/Part_19/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_19) --> *4_Box_Model/Part_19/styles/style.css*
    ```
     .article_01 {
         width: 90%;
@@ -1089,7 +1089,7 @@ There are three ways to create transparent boxes. Either with *opacity* or RGBA 
 The CSS property *opacity* is more useful for graphics and images, because there the transparency does not work with RGBA or HSLA colors. For boxes with text, RGBA or HSLA colors should be used.
 
 ### Add a color gradient
-A linear gradient is created with the CSS function `linear-gradient()` and assigned to the `background` (or `background-image` property.
+A linear gradient is created with the CSS function `linear-gradient()` and assigned to the `background` (or `background-image`) property.
    ```
     background: linear-gradient(white, orange);
    ```
@@ -1113,7 +1113,7 @@ It is also possible to repeat a gradient:
 
 Diagonal directions can be displayed with `to right bottom` (top left to bottom right) and `to left top` (bottom right to top left).
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_20/index.html) --> *4_Box_Model/Part_20/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_20) --> *4_Box_Model/Part_20/index.html*
    ```
     <header class="headfoot">Linear color gradients (start)</header>
     <article class="trans01 my_article">
@@ -1155,7 +1155,7 @@ Diagonal directions can be displayed with `to right bottom` (top left to bottom 
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_20/styles/style.css) --> *4_Box_Model/Part_20/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_20) --> *4_Box_Model/Part_20/styles/style.css*
    ```
     .trans01 { 
         background: linear-gradient(white, orange); 
@@ -1188,7 +1188,7 @@ Diagonal directions can be displayed with `to right bottom` (top left to bottom 
 
 In addition to the linear color gradients, there are also the radial color gradients, these are displayed with `radial-gradient()`.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_21/index.html) --> *4_Box_Model/Part_21/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_21) --> *4_Box_Model/Part_21/index.html*
    ```
     <header class="headfoot">Radial color gradients (start)</header>
       <article class="trans01 my_article">
@@ -1207,7 +1207,7 @@ In addition to the linear color gradients, there are also the radial color gradi
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_21/styles/style.css) --> *4_Box_Model/Part_21/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_21) --> *4_Box_Model/Part_21/styles/style.css*
    ```
     .trans01 { 
         background: radial-gradient(white, orange); 
@@ -1231,7 +1231,7 @@ In addition to the linear color gradients, there are also the radial color gradi
 
 Multiple colors can also be used for the gradient:
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_22/index.html) --> *4_Box_Model/Part_22/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_22) --> *4_Box_Model/Part_22/index.html*
    ```
     <header class="headfoot">Multicolor color gradients (start)</header>
       <article class="trans01 my_article">
@@ -1244,7 +1244,7 @@ Multiple colors can also be used for the gradient:
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_22/styles/style.css) --> *4_Box_Model/Part_22/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_22) --> *4_Box_Model/Part_22/styles/style.css*
    ```
     .trans01 { 
         background: linear-gradient(to left, purple, blue, green, yellow, red, purple);  
@@ -1283,7 +1283,7 @@ It is also possible to represent an inner shadow with `inset`.
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_23/index.html) --> *4_Box_Model/Part_23/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_23) --> *4_Box_Model/Part_23/index.html*
    ```
     <h1>Add shadows</h1>
     <pre class="shadow01 my_pre">box-shadow: 4px 4px gray;</pre>
@@ -1294,7 +1294,7 @@ It is also possible to represent an inner shadow with `inset`.
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_23/styles/style.css) --> *4_Box_Model/Part_23/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_23) --> *4_Box_Model/Part_23/styles/style.css*
    ```
     .shadow01 {  
         box-shadow:4px 4px gray;
@@ -1343,7 +1343,7 @@ It is also possible to enter multiple values:
 - Here the upper left corner and the lower right corner get a radius of 20 pixels and the upper right corner and the lower left corner get a radius of 10 pixels.
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_24/index.html) --> *4_Box_Model/Part_24/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_24) --> *4_Box_Model/Part_24/index.html*
    ```
     <header class="head">Header</header>
     <article class="article01">
@@ -1356,7 +1356,7 @@ It is also possible to enter multiple values:
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_24/styles/style.css) --> *4_Box_Model/Part_24/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_24) --> *4_Box_Model/Part_24/styles/style.css*
    ```
     .head {
         width: 85%;
@@ -1394,7 +1394,7 @@ It is also possible to enter multiple values:
 
 Round corners can also be used for images.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_25/index.html) --> *4_Box_Model/Part_25/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_25) --> *4_Box_Model/Part_25/index.html*
    ```
     <h1>Round corners</h1>
     <img class="img_radius" src="images/picture.jpg" alt="Whale in clouds" />
@@ -1402,7 +1402,7 @@ Round corners can also be used for images.
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_25/styles/style.css) --> *4_Box_Model/Part_25/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_25) --> *4_Box_Model/Part_25/styles/style.css*
    ```
     .img_radius {
         border-radius: 25px;
@@ -1420,7 +1420,7 @@ Round corners can also be used for images.
 
 There is also the possibility to specify different values for the horizontal and vertical raduis. To do this, both values are separated with a `/`. The result is corners with elliptical corners with roundings.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_26/index.html) --> *4_Box_Model/Part_26/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_26) --> *4_Box_Model/Part_26/index.html*
    ```
     <header class="head">
         border-radius: 10px 20px 30px 40px / 5px 10px 5px 10px;
@@ -1435,7 +1435,7 @@ There is also the possibility to specify different values for the horizontal and
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_26/styles/style.css) --> *4_Box_Model/Part_26/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_26) --> *4_Box_Model/Part_26/styles/style.css*
    ```
     .head {
         width: 85%;
@@ -1474,14 +1474,14 @@ There is also the possibility to specify different values for the horizontal and
 ## 4.4. CSS Vendor Prefixes
 Vendor prefix can be used to (experimentally) use CSS properties that are still in draft or beta state. When the corresponding CSS module is in the final version and the web browser fully supports the property, the prefix can be removed. However, it is recommended to keep it so that even older web browsers can display everything accurately.
 
-most common vendor prefixes
-| abbreviation | producer             |
+Most common vendor prefixes:
+| Abbreviation | Producer             |
 | ------------ | ---------------------|
 | -webkit-	   | Chrome, Safari, Edge |
 | -moz-        | Mozilla Firefox      |
 | -o-          | Opera                |
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_27/index.html) --> *4_Box_Model/Part_27/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_27) --> *4_Box_Model/Part_27/index.html*
    ```
     <header class="headfoot">Header</header>
     <article class="article01">
@@ -1506,7 +1506,7 @@ most common vendor prefixes
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_27/styles/style.css) --> *4_Box_Model/Part_27/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/4_Box_Model/Part_27) --> *4_Box_Model/Part_27/styles/style.css*
    ```
     h1 {
         -webkit-text-emphasis: filled double-circle green;
