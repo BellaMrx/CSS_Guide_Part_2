@@ -1534,7 +1534,7 @@ How and where an element is positioned and what is to happen to the elements fol
 ### `position: static;` 
 This is the default setting for all elements, and it is used when the CSS property `position` has not been noted at all. So the elements are displayed side by side as usual.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_1/index.html) --> *5_CSS_Positioning/Part_1/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_1) --> *5_CSS_Positioning/Part_1/index.html*
    ```
     <header class="foothead">Header</header>
     <article class="article01">
@@ -1559,7 +1559,7 @@ This is the default setting for all elements, and it is used when the CSS proper
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_1/styles/style.css) --> *5_CSS_Positioning/Part_1/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_1) --> *5_CSS_Positioning/Part_1/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1584,7 +1584,7 @@ This is the default setting for all elements, and it is used when the CSS proper
 ### `position: relative;`
 This places an element relative to the current position with the CSS property `top`, `bottom`, `left` and `right` and the corresponding value specifications. The other elements are not affected.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_2/index.html) --> *5_CSS_Positioning/Part_2/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_2l) --> *5_CSS_Positioning/Part_2/index.html*
    ```
     <header class="foothead">Header</header>
       <article class="article01">
@@ -1602,7 +1602,7 @@ This places an element relative to the current position with the CSS property `t
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_2/styles/style.css) --> *5_CSS_Positioning/Part_2/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_2) --> *5_CSS_Positioning/Part_2/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1629,7 +1629,7 @@ This places an element relative to the current position with the CSS property `t
 ### `position: absolute;`  
 This drags the element out of the document flow. With the CSS properties `top`, `bottom`, `left` and `right` the element can be placed absolutely in the nearest parent element. Regardless of where the element was noted in the HTML document. All other elements will now act as if the absolutely moved element no longer belongs to the document flow and any gap thus created will be filled with the following element.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_3/index.html) --> *5_CSS_Positioning/Part_3/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_3) --> *5_CSS_Positioning/Part_3/index.html*
    ```
     <header class="foothead">Header</header>
       <article class="article01">
@@ -1645,7 +1645,7 @@ This drags the element out of the document flow. With the CSS properties `top`, 
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_3/styles/style.css) --> *5_CSS_Positioning/Part_3/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_3) --> *5_CSS_Positioning/Part_3/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1672,7 +1672,7 @@ Note: If the width of a block is not specified and the positioning `position: ab
 
 In practice, absolute and relative positioning are often combined.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_4/index.html) --> *5_CSS_Positioning/Part_4/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_4) --> *5_CSS_Positioning/Part_4/index.html*
    ```
     <body>
         <figure>
@@ -1683,7 +1683,7 @@ In practice, absolute and relative positioning are often combined.
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_4/styles/style.css) --> *5_CSS_Positioning/Part_4/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_4) --> *5_CSS_Positioning/Part_4/styles/style.css*
    ```
     figure {
         position: relative;
@@ -1713,7 +1713,7 @@ In practice, absolute and relative positioning are often combined.
 ### `position: fixed;`
 The fixed positioning behaves at first like the absolute positioning, however with the clear difference that this fixed position is measured absolutely to the left upper edge of the web browser window. This means that a fixed element does not move when the web browser window is scrolled.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_5/index.html) --> *5_CSS_Positioning/Part_5/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_5) --> *5_CSS_Positioning/Part_5/index.html*
    ```
     <header class="foothead">Header</header>
     <article class="article01">
@@ -1732,7 +1732,7 @@ The fixed positioning behaves at first like the absolute positioning, however wi
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_5/styles/style.css) --> *5_CSS_Positioning/Part_5/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_5) --> *5_CSS_Positioning/Part_5/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1758,7 +1758,7 @@ The fixed positioning behaves at first like the absolute positioning, however wi
 
 In practice, a fixed positioning is suitable e.g. for navigation areas, a fixed header or footer or a fixed link to the top of the page, which is always present at the same position.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_6/index.html) --> *5_CSS_Positioning/Part_6/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_6) --> *5_CSS_Positioning/Part_6/index.html*
    ```
     <h1 id="start">Top of the page</h1>
     <a href="#start" class="up">Up</a>
@@ -1771,7 +1771,7 @@ In practice, a fixed positioning is suitable e.g. for navigation areas, a fixed 
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_6/styles/style.css) --> *5_CSS_Positioning/Part_6/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_6) --> *5_CSS_Positioning/Part_6/styles/style.css*
    ```
     .up {
         position: fixed;
@@ -1789,7 +1789,7 @@ In practice, a fixed positioning is suitable e.g. for navigation areas, a fixed 
 ### `position: sticky;`
 This function is a hybrid of relative and fixed positioning. This element initially behaves as with relative positioning until a certain boundary such as the top or bottom of the screen has been reached, where the element then sticks, and behaves as with fixed positioning.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_7/index.html) --> *5_CSS_Positioning/Part_7/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_7) --> *5_CSS_Positioning/Part_7/index.html*
    ```
     <header class="foothead">Header</header>
     <article class="article01">
@@ -1816,7 +1816,7 @@ This function is a hybrid of relative and fixed positioning. This element initia
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_7/styles/style.css) --> *5_CSS_Positioning/Part_7/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_7) --> *5_CSS_Positioning/Part_7/styles/style.css*
    ```
     .article01 {
         position: static;
@@ -1858,7 +1858,7 @@ The use of the CSS property `z-index` is simple. The higher the noted value of `
 
 Negative values can also be used for the `z-index`. Of course, it still applies here that elements with positive values are arranged above the elements with negative values.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_8/index.html) --> *5_CSS_Positioning/Part_8/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_8) --> *5_CSS_Positioning/Part_8/index.html*
    ```
     <header class="foothead">Header</header>
       <article class="article01">
@@ -1874,7 +1874,7 @@ Negative values can also be used for the `z-index`. Of course, it still applies 
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_8/styles/style.css) --> *5_CSS_Positioning/Part_8/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_8) --> *5_CSS_Positioning/Part_8/styles/style.css*
    ```
     .article01 {
         position: relative;
@@ -1902,7 +1902,7 @@ Negative values can also be used for the `z-index`. Of course, it still applies 
 ## 5.3. Floating boxes with `float`
 With `float` an element is taken out of the usual document flow and placed at the right or left margin. The following elements without `float` flow around this floated element. In practice, people tend to use flexboxes or the grid layout for the layout of websites today. 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_9/index.html) --> *5_CSS_Positioning/Part_9/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_9) --> *5_CSS_Positioning/Part_9/index.html*
    ```
     <h1>A report</h1>
     <figure>
@@ -1916,7 +1916,7 @@ With `float` an element is taken out of the usual document flow and placed at th
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_9/styles/style.css) --> *5_CSS_Positioning/Part_9/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_9) --> *5_CSS_Positioning/Part_9/styles/style.css*
    ```
     figure {
         float: left;
@@ -1936,7 +1936,7 @@ Only the text around the image flows, but not the `padding`, `border`, `margin` 
 ### Stop flowing around
 The flowing around can be stopped with the CSS property `clear`. The CSS property `clear` can be passed the values `left`, `right`, `both` or `none`. A `clear:left;` ends a `float:left;` and `both` ends left and right. `none` is the default value, and the elements can thus flow again. 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_10/index.html) --> *5_CSS_Positioning/Part_10/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_10) --> *5_CSS_Positioning/Part_10/index.html*
    ```
     <h1>A report</h1>
     <figure>
@@ -1950,7 +1950,7 @@ The flowing around can be stopped with the CSS property `clear`. The CSS propert
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_10/styles/style.css) --> *5_CSS_Positioning/Part_10/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_10) --> *5_CSS_Positioning/Part_10/styles/style.css*
    ```
     figure {
         float: left;
@@ -1961,9 +1961,9 @@ The flowing around can be stopped with the CSS property `clear`. The CSS propert
 
 
 ### Combine floats into a unit
-With `display: flow-root` a new block for the bypassing element is created via CSS. This element is only available to newer web browsers. For this the trick with `overflow: hidden;` would offer itself, with which as a side effect likewise the content is enclosed into a new block. An elegant solution for this is CSS's feature query @supports(). This can be used to check whether a browser can handle certain CSS property-value combinations.
+With `display: flow-root;` a new block for the bypassing element is created via CSS. This element is only available to newer web browsers. For this the trick with `overflow: hidden;` would offer itself, with which as a side effect likewise the content is enclosed into a new block. An elegant solution for this is CSS's feature query @supports(). This can be used to check whether a browser can handle certain CSS property-value combinations.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_11/index.html) --> *5_CSS_Positioning/Part_11/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_11) --> *5_CSS_Positioning/Part_11/index.html*
    ```
     <h1>A report</h1>
     <figure>
@@ -1977,7 +1977,7 @@ With `display: flow-root` a new block for the bypassing element is created via C
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_11/styles/style.css) --> *5_CSS_Positioning/Part_11/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_11) --> *5_CSS_Positioning/Part_11/styles/style.css*
    ```
     .float-left {
         float: left;
@@ -2010,13 +2010,13 @@ With `display: flow-root` a new block for the bypassing element is created via C
 ## 5.4. Flexible boxes (flexbox model)
 Responsive web design is an indispensable part of creating websites today, so the desire for a simpler and better alternative to float positioning has become greater. One of these alternatives is the flexbox model. The CSS flexbox is perfect for arranging elements next to or below each other. This is very handy for galleries or links of a navigation, for example, because CSS flexboxes offer even more options, including arranging the elements neatly next to each other with a certain spacing, in a certain order, or in a certain size.
 
-The principle of flexboxes is simple. A parent element is needed in which the CSS property `display` is set to `flex`. This property affects all contained child elements. The parent element that has the `display:flex` CSS property set is also called a flex container. The child elements it contains are the flex items.
+The principle of flexboxes is simple. A parent element is needed in which the CSS property `display` is set to `flex`. This property affects all contained child elements. The parent element that has the `display:flex;` CSS property set is also called a flex container. The child elements it contains are the flex items.
 
 
 ### Align the flexbox
 How the elements are aligned within the flexbox is specified with the CSS property `flex-direction`. For horizontal alignment the value `row` can be used and for vertical alignment the value `column` is used. If `flex-direction` is not used, `row` is the default. The default orientation for the elements of a flexbox is horizontal.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_12/index.html) --> *5_CSS_Positioning/Part_12/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_12) --> *5_CSS_Positioning/Part_12/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2035,7 +2035,7 @@ How the elements are aligned within the flexbox is specified with the CSS proper
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_12/styles/style.css) --> *5_CSS_Positioning/Part_12/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_12) --> *5_CSS_Positioning/Part_12/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2058,7 +2058,7 @@ How the elements are aligned within the flexbox is specified with the CSS proper
 
 If the value `column` is used instead of `row`, the individual elements within the `main` element are vertically aligned.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_13/index.html) --> *5_CSS_Positioning/Part_13/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_13) --> *5_CSS_Positioning/Part_13/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2077,7 +2077,7 @@ If the value `column` is used instead of `row`, the individual elements within t
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_13/styles/style.css) --> *5_CSS_Positioning/Part_13/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_13) --> *5_CSS_Positioning/Part_13/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2109,7 +2109,7 @@ The unpleasant thing about `flex-direction: row;` is that it doesn't look nice a
 
 If you want the elements to wrap to the next row, the flexbox model provides the CSS property `flex-wrap`. The default value `nowrap` prevents the elements in the flexbox from wrapping. If the `wrap` value is used, the elements wrap into a new row. There is also the value `wrap-reverse`, which wraps the flexible elements to the top.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_14/index.html) --> *5_CSS_Positioning/Part_14/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_14) --> *5_CSS_Positioning/Part_14/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2128,7 +2128,7 @@ If you want the elements to wrap to the next row, the flexbox model provides the
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_14/styles/style.css) --> *5_CSS_Positioning/Part_14/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_14) --> *5_CSS_Positioning/Part_14/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2153,7 +2153,7 @@ If you want the elements to wrap to the next row, the flexbox model provides the
 
 
 The shorthand notation for `flex-direction` and `flex-wrap` is possible with `flex-flow`, e.g :
-    `flex-flow: row-wrap`
+    `flex-flow: row-wrap;`
 is equivalent to the notation:
    ```
 	flex-direction: row;
@@ -2165,7 +2165,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
 - `center` : This will place the elements in the center.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/index.html) --> *5_CSS_Positioning/Part_15/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15) --> *5_CSS_Positioning/Part_15/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2184,7 +2184,7 @@ The CSS property `justify-content` can be used to arrange the individual element
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style1.css) --> *5_CSS_Positioning/Part_15/styles/style1.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15) --> *5_CSS_Positioning/Part_15/styles/style1.css*
    ```
     .myarticle {
         width: 300px;
@@ -2207,7 +2207,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
 - `flex-start` : This will align the elements left.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style2.css) --> *5_CSS_Positioning/Part_15/styles/style2.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15) --> *5_CSS_Positioning/Part_15/styles/style2.css*
    ```
     .myarticle {
         width: 300px;
@@ -2230,7 +2230,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
 - `flex-end` : This will align the elements right.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style3.css) --> *5_CSS_Positioning/Part_15/styles/style3.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15) --> *5_CSS_Positioning/Part_15/styles/style3.css*
    ```
     .myarticle {
         width: 300px;
@@ -2253,7 +2253,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
  - `space-between` : This distributes the elements evenly. The first and the last element touches at the beginning or at the end.
  
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style4.css) --> *5_CSS_Positioning/Part_15/styles/style4.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15) --> *5_CSS_Positioning/Part_15/styles/style4.css*
    ```
     .myarticle {
         width: 300px;
@@ -2276,7 +2276,7 @@ The CSS property `justify-content` can be used to arrange the individual element
 
   - `space-around` : This distributes all elements evenly.
  
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15/styles/style5.css) --> *5_CSS_Positioning/Part_15/styles/style5.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_15) --> *5_CSS_Positioning/Part_15/styles/style5.css*
    ```
     .myarticle {
         width: 300px;
@@ -2302,7 +2302,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `center`
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/index.html) --> *5_CSS_Positioning/Part_16/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16) --> *5_CSS_Positioning/Part_16/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2321,7 +2321,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style1.css) --> *5_CSS_Positioning/Part_16/styles/style1.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16) --> *5_CSS_Positioning/Part_16/styles/style1.css*
    ```
     .myarticle {
         width: 500px;
@@ -2346,7 +2346,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `flex-start`
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style2.css) --> *5_CSS_Positioning/Part_16/styles/style2.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16) --> *5_CSS_Positioning/Part_16/styles/style2.css*
    ```
     .myarticle {
         width: 500px;
@@ -2371,7 +2371,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `flex-end`
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style3.css) --> *5_CSS_Positioning/Part_16/styles/style3.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16) --> *5_CSS_Positioning/Part_16/styles/style3.css*
    ```
     .myarticle {
         width: 500px;
@@ -2396,7 +2396,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `space-between`
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style4.css) --> *5_CSS_Positioning/Part_16/styles/style4.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16) --> *5_CSS_Positioning/Part_16/styles/style4.css*
    ```
     .myarticle {
         width: 500px;
@@ -2421,7 +2421,7 @@ If the elements are to be arranged along the cross axis, the CSS property `align
 
 - `space-around`
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16/styles/style5.css) --> *5_CSS_Positioning/Part_16/styles/style5.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_16) --> *5_CSS_Positioning/Part_16/styles/style5.css*
    ```
     .myarticle {
         width: 500px;
@@ -2449,7 +2449,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 
 - `stretch`
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/index.html) --> *5_CSS_Positioning/Part_17/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17) --> *5_CSS_Positioning/Part_17/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2468,7 +2468,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/styles/style1.css) --> *5_CSS_Positioning/Part_17/styles/style1.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17) --> *5_CSS_Positioning/Part_17/styles/style1.css*
    ```
     .myarticle {
         width: 200px;
@@ -2528,7 +2528,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 
 - `flex-start`
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/styles/style3.css) --> *5_CSS_Positioning/Part_17/styles/style3.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17) --> *5_CSS_Positioning/Part_17/styles/style3.css*
    ```
     .myarticle {
         width: 200px;
@@ -2558,7 +2558,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 
 - `flex-end`
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/styles/style4.css) --> *5_CSS_Positioning/Part_17/styles/style4.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17) --> *5_CSS_Positioning/Part_17/styles/style4.css*
    ```
     .myarticle {
         width: 200px;
@@ -2588,7 +2588,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 
 - `baseline`
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17/styles/style5.css) --> *5_CSS_Positioning/Part_17/styles/style5.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_17) --> *5_CSS_Positioning/Part_17/styles/style5.css*
    ```
     .myarticle {
         width: 200px;
@@ -2619,7 +2619,7 @@ If individual elements in the arrangement of flexible elements are to be assigne
 ### Set flexibility of the flexbox
 To set the flexibility of the corresponding elements within the flexbox, the CSS property `flex` is used. The property requires a numerical value. The numerical values behave relatively, meaning that an element with the specification `flex: 4;` is four times as flexible as an element with the property `flex: 1;`.
 
-`flex-grow` controls how flexibly the element grows relative to the rest of the elements. How far the element shrinks relative to the other elements is specified with `flex-shrink`. The base width for the element is specified with `flex-basis`. In addition to percentages, px or em can also be specified. The default value for `flex-basis` is `auto`. The default value of `flex` in general is `flex: 0 1 auto`.
+`flex-grow` controls how flexibly the element grows relative to the rest of the elements. How far the element shrinks relative to the other elements is specified with `flex-shrink`. The base width for the element is specified with `flex-basis`. In addition to percentages, px or em can also be specified. The default value for `flex-basis` is `auto`. The default value of `flex` in general is `flex: 0 1 auto;`.
 
 The CSS property `flex` is a shorthand notation for existing CSS properties of flexboxes `flex-grow`, `flex-shrink` and `flex-base`. The `flex: 2;` is the shorthand notation for `flex-grow: 2;`.
 
@@ -2632,7 +2632,7 @@ This means:
     flex-base: 30%;
    ```
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_18/index.html) --> *5_CSS_Positioning/Part_18/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_18) --> *5_CSS_Positioning/Part_18/index.html*
    ```
     <main class="mymain">
         <article class="myarticle article01">
@@ -2651,7 +2651,7 @@ This means:
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_18/styles/style.css) --> *5_CSS_Positioning/Part_18/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_18) --> *5_CSS_Positioning/Part_18/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2688,7 +2688,7 @@ This means:
 
 #### The peculiarity of flex-grow at line break
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_19/index.html) --> *5_CSS_Positioning/Part_19/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_19) --> *5_CSS_Positioning/Part_19/index.html*
    ```
     <main class="mymain">
         <article class="myarticle">
@@ -2707,7 +2707,7 @@ This means:
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_19/styles/style.css) --> *5_CSS_Positioning/Part_19/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_19) --> *5_CSS_Positioning/Part_19/styles/style.css*
    ```
     .myarticle {
         width: 300px;
@@ -2739,7 +2739,7 @@ When the viewport is reduced, the elements are automatically arranged differentl
 ### Determine the order of the boxes
 With the CSS property `order` the order itself can be set, also here a numerical value is used.
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_20/index.html) --> *5_CSS_Positioning/Part_20/index.html*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_20) --> *5_CSS_Positioning/Part_20/index.html*
    ```
     <main class="mymain">
       <article class="myarticle article01">
@@ -2758,7 +2758,7 @@ With the CSS property `order` the order itself can be set, also here a numerical
    ```
 
 
- [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_20/styles/style.css) --> *5_CSS_Positioning/Part_20/styles/style.css*
+ [Complete Code](https://github.com/BellaMrx/CSS_Guide_Part_2/blob/main/5_CSS_Positioning/Part_20) --> *5_CSS_Positioning/Part_20/styles/style.css*
    ```
     .myarticle {
         width: 300px;
